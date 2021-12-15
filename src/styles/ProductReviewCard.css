@@ -1,0 +1,31 @@
+.ProductReviewCard{
+    margin: 0.5vmax;
+    background-color: white;
+    cursor: pointer;
+    padding-bottom: 2vmax;
+    transition: all 0.5s;
+}
+
+.ProductReviewCard:hover{
+    transform: translateY(-0.4vmax);
+    box-shadow: 6px 6px 15px black;
+}
+
+.ProductReviewCard h5
+{
+    margin: 2vmax 0 0.5vmax 2vmax;
+    color:#757590;
+}
+
+.ProductReviewCard span{
+    margin: 0 2vmax;
+    color: #616161;
+    font-family: Arial,Sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.ProductReviewCard b{
+    font-size: 1vmax;
+    color: orangered;
+}

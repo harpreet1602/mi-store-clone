@@ -1,0 +1,41 @@
+
+.upperNav{
+    background-color: #212121;
+    display: grid;
+    /* this divides in ratio like */
+    grid-template-columns: 5fr 2fr;
+    color:white;
+}
+
+.upperNav > div{
+  padding: 0 4vmax;
+  /* border:1px solid; */
+  display:flex;
+  align-items:center;
+}
+
+.upperNav > div svg{
+  fill: #b0b0a7;
+}
+
+
+.upperNav > div svg:hover{
+  fill:white;
+}
+.upperNav > div > span {
+  color: #424242;
+  font-size: 0.8vmax;
+  font-weight: 100;
+}
+
+.upperNav > div > a{
+  color:#a7a7a7;
+  font-size: 0.9vmax;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  margin: 1vmax;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
